@@ -1,0 +1,14 @@
+{
+  "name" : "node-reverse-proxy",
+  "version" : "0.0.1",
+  "dependencies" : {
+    "http-proxy" : ">= 0.7.x",
+    "colors": "0.x.x",
+    "socket.io" : ">= 0.6.18"
+  },
+  "private" : false,
+  "author": "Pouya Mohtacham <pouyajoon@gmail.com>",
+  "contributors": [
+    { "name": "Aurélien Gasser", "email": "aurelien.gasser@gmail.com"}
+  ]
+}
