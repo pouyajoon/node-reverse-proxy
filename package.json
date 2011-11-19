@@ -1,11 +1,13 @@
 {
   "name" : "node-reverse-proxy",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
+  "engines": ["node < 0.5"],
+  "main": "lib/node-reverse-proxy",
   "dependencies" : {
     "http-proxy" : ">= 0.7.x",
-    "colors": "0.x.x",
     "socket.io" : ">= 0.6.18"
   },
+  "description": "A reverse proxy in node.js for HTTP and Websockets",
   "private" : false,
   "author": "Pouya Mohtacham <pouyajoon@gmail.com>",
   "contributors": [

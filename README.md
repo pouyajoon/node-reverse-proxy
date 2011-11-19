@@ -5,7 +5,8 @@ Requires node.js <= v0.4.x
 Example usage :
 
 ```javascript
-var node_reverse_proxy = require('./index');
+var node_reverse_proxy = require('node-reverse-proxy');
+
 var ip = '127.0.0.1';
 var reverse_proxy = new node_reverse_proxy({
     'first_host.com' : ip + ':8082',
