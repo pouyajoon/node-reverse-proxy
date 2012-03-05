@@ -1,7 +1,7 @@
 {
   "name" : "node-reverse-proxy",
-  "version" : "0.0.3",
-  "engines": ["node < 0.5"],
+  "version" : "0.0.5",
+  "engines": ["node <= 0.6.8"],
   "main": "lib/node-reverse-proxy",
   "dependencies" : {
     "http-proxy" : ">= 0.7.x"
