@@ -2,7 +2,7 @@ A reverse proxy in node.js for HTTP and Websockets.
 
 Using nodejitsu http-proxy
 
-Requires node.js <= v0.4.x
+Requires node.js <= v0.6.8
 
 Example usage :
 
